@@ -1,0 +1,21 @@
+.article{
+	padding: 0px 30px;
+}
+.img_art, .description{
+	padding: 30px;
+}
+
+.img_art{
+    float: left;
+    width: 60%;
+}
+
+.img_art img{
+    margin: auto;
+    width: 100%;
+}
+
+.description{
+    float: right;
+    width: 35%;
+}

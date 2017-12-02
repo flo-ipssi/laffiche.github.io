@@ -1,0 +1,22 @@
+/* FORMAT TABLETTE */
+
+@media screen and (max-width: 800px){
+	.box p {
+	    padding: 0px 23px;
+	    text-align: justify;
+	}
+	.box  {
+	    width: 33%;
+	}
+	.description, .img_art{
+		width: 100%;
+		padding: 10px;
+	}
+	header nav ul li {
+		display: table-cell;
+	    padding: 10px;
+	}
+	marquee{
+		display: none;	
+	}
+}

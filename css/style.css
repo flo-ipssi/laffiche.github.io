@@ -1,0 +1,130 @@
+body {
+  background-color: #d6e2ea; }
+
+/* HEADER */
+header {
+  border-bottom: 1px solid;
+  margin: 15px;
+  min-height: 215px; }
+  header img {
+    float: left; }
+  header > div {
+    text-align: center;
+    color: #111; }
+  header h1 {
+    padding: 25px;
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive; }
+  header h2 {
+    font-family: 'Lobster', cursive;
+    padding: 14px;
+    margin-top: -8px;
+    font-size: 24px;
+    margin-bottom: 7px; }
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    header nav ul li {
+      display: inline-block;
+      margin: 10px 20px 10px;
+      font-family: 'Montserrat', sans-serif; }
+
+.alerte {
+  background: red;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0px 15px;
+  padding: 10px; }
+
+/* NAVBAR */
+.navbar div:first-child {
+  margin-top: 25px; }
+
+.box {
+  text-align: justify;
+  margin-top: 20px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; }
+  .box img.fond {
+    max-width: 240px;
+    display: block;
+    margin: auto;
+    max-height: 190px;
+    width: 80%;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transition: filter 0.8s;
+    /* Safari 3.1 to 6.0 */
+    transition: filter 0.8s; }
+  .box img.loupe {
+    opacity: 0;
+    max-width: 60px;
+    margin-bottom: -50px;
+    position: absolute;
+    z-index: 99;
+    transform: translate(180%, 55%);
+    -webkit-filter: opacity(100%);
+    -webkit-transition: opacity 0.8s;
+    /* Safari 3.1 to 6.0 */ }
+  .box img.fond:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%); }
+  .box p {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px; }
+
+/* CONTENT */
+.container {
+  background: #FFF;
+  padding: 1px 0px 30px; }
+
+.content {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  background: url("../img/fond.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 585px; }
+
+.col-lg-2 {
+  padding-top: 0px;
+  margin-top: -57px; }
+
+.content h2 {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 130px;
+  margin-left: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline; }
+.content h3 {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 80px;
+  margin-left: 30px; }
+
+form {
+  margin: auto;
+  min-height: 300px; }
+  form input[type="text"] {
+    margin: 15px 5px;
+    width: 80%; }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  padding: 0px 28%; }
+  footer div {
+    width: 100px;
+    float: left;
+    text-align: right;
+    display: inline-block; }
+  footer .fb .icons {
+    background: url("img/icons.jpg"); }
+
+/*# sourceMappingURL=style.css.map */

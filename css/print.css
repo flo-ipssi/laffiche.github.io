@@ -1,0 +1,39 @@
+/* MEDIA QUERIES */
+
+
+/* FORMAT PC */
+
+@media screen and (max-width: 1000px){
+
+	.description, .img_art{
+		min-width: 100%;
+		float: none;
+	}
+
+	.box {
+		text-align: center;
+	}
+	header{
+		background:none;
+		min-height: 150px;
+	}
+	header img{
+		max-width: 145px;
+	}
+	header h1{
+		background:#bb2020;
+		color: white;
+	}
+	header h2{
+		display: none;
+	}
+	header nav ul li{
+		margin: 10px;
+	}
+
+	.box img.loupe{
+		max-width: 35px;
+		transform: translate(230%, 79%);
+	}
+}
+

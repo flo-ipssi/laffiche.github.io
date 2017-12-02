@@ -1,0 +1,46 @@
+/* FORMAT MOBILE */
+
+
+
+@media screen and (max-width: 690px){
+	
+	header img {
+	    max-width: 98px;
+	}
+	header nav ul{
+		text-align: right;
+	}
+
+	div.col-sm-3.col-lg-2{
+		display: none;
+	}
+	.content h3,.content h2 {
+	    margin-left: 20px;
+	}
+	.box p {
+	    padding: 0px 10px;
+	    font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.box p {
+	    padding: 0px 5px;
+	}
+	header nav {
+		margin-left: 10px;
+	}
+	header h1 {
+	    font-size: 25px;
+	}
+	header nav {
+		margin-left: 0px;
+	}
+	.description h3{
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.description p, .article p{
+		font-size: 14px;
+	}
+}

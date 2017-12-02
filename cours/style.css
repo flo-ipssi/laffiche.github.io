@@ -1,0 +1,23 @@
+td{padding: 10px;}
+
+.first,.second,.third{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.first{
+	background: blue;
+	border: 2px solid red;
+}
+
+.second{
+	background: white;
+	border: 2px solid blue;
+}
+
+.third{
+	background: red;
+	border: 2px solid blue;
+}
