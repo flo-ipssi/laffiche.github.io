@@ -6,4 +6,5 @@ Dossier contenant tous les TP
 
 Accessible depuis cette adresse : https://laffiche.github.io/
 
-Contient de l'HTML, du CSS et utilise Bootstrap .
+Contient de l'HTML, du CSS, PHP , SQL et utilise Bootstrap .
+La base de donnée est nécessaire aux connexions.
